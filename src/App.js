@@ -1,10 +1,16 @@
 import React, { Component } from "react";
 import "./App.css";
-import Text1 from "./components/Text1";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
-    return <Text1 />;
+    return (
+      <div>
+        <Navbar />
+        <Footer />
+      </div>
+    );
   }
 }
 
